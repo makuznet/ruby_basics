@@ -1,6 +1,7 @@
 side = Array.new #creating a new array, which is going to hold triangle side lengths
-puts "Hey! Fancy triangles? Give me please its side lengths in cm!"
-print "the first side: "
+puts "Let's find out whether your triangle is equilatteral, isosceles or right-angled!"
+puts "To do that we need its side lengths in cm"
+print "Give me please the first side: "
 side[0] = gets.chomp.to_i
 print "the second side: "
 side[1] = gets.chomp.to_i
