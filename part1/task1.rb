@@ -1,3 +1,4 @@
+#!/usr/bin/ruby 
 print "Hi, there! To know your ideal weight name yourself please: "
 name = gets.chomp # supposed to be a string, .chomp removes special symbols
 print "and reveal your height in cm: "

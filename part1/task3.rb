@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 side = Array.new #creating a new array, which is going to hold triangle side lengths
 puts "Let's find out whether your triangle is equilatteral, isosceles or right-angled!"
 puts "To do that we need its side lengths in cm"

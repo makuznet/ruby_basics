@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 print "Hi, there! To get triangle area please provide its Base in cm: "
 =begin
 .chomp remove special symbols

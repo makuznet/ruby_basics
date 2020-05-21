@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 puts "Let's solve quadratic equation, shall we?"
 print "Give me please a, b, c: " 
 input = gets.chomp
