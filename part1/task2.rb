@@ -9,4 +9,4 @@ base = gets.chomp.to_f.round(2) # triangle base
 print "and its Height: "
 height = gets.chomp.to_f.round(2) # triangle's height
 area = (height * base * 0.5).round(2) # calculating the area
-puts "Triangle area is #{area} cm2" 
+puts "Triangle area is #{area} cm2"
