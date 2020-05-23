@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+# frozen_string_literal: true
+
 puts 'Populating the array from 10 to 100 with a factor of 5'
 array = [] # announcing an empty array
 index = 0 # an array index

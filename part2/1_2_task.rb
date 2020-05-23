@@ -1,10 +1,12 @@
 #!/usr/bin/ruby
+# frozen_string_literal: true
+
 months = { # creating a hash
   'January' => 31,
   'February' => 28,
   'March' => 31,
   'April' => 30,
-  'May'  => 31,
+  'May' => 31,
   'June' => 30,
   'July' => 31,
   'August' => 31,
@@ -13,8 +15,6 @@ months = { # creating a hash
   'November' => 30,
   'December' => 31
 }
-months.each { |month, days| #assigning vars to hash keys and values
-if days == 30
-  puts "#{month}: #{days}"
+months.each do |month, days| # showing months having 30 days
+  puts "#{month}: #{days}" if days == 30
 end
-}

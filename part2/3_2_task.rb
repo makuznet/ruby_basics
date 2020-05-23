@@ -1,4 +1,6 @@
 #!/usr/bin/ruby
+# frozen_string_literal: true
+
 puts 'Populating an array with Fibonacci numbers up to 100'
 array = [0, 1] # the first and the second Fibonacci numbers are fixed
 index = 2 # an array index
