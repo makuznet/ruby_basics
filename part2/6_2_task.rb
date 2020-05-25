@@ -25,4 +25,4 @@ list.each do |item, nested_hash|
   puts "#{item} cost, EUR: #{cost.round(2)}" # visualizing items costs kindly
   grand_total += cost # incrementing grand total in the loop
 end
-print "Grand total, EUR: #{grand_total.round(2)} \n" # displaying the final ammount spent
+print "Grand total, EUR: #{grand_total.round(2)} \n" # displaying the final amount spent
