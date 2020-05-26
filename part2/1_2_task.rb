@@ -15,6 +15,7 @@ months = { # creating a hash
   'November' => 30,
   'December' => 31
 }
+
 months.each do |month, days| # showing months having 30 days
   puts "#{month}: #{days}" if days == 30
 end
